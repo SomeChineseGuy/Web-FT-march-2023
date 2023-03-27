@@ -1,0 +1,128 @@
+/* h1 {
+  color: tomato;
+  font-size: 100px;
+  font-family: 'Montserrat', sans-serif;
+
+} */
+
+div .sub {
+  color:aqua
+}
+
+.title {
+  color: tomato;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#sub-heading {
+  color: red;
+  font-size: 50px;
+}
+
+
+.box-model {
+  /* height: 100px; */
+  width: 700px;
+  /* padding: 70px 10px 60px 10px; */
+  padding: 40px;
+  /* padding-left: 70px; */
+  border: 50px solid green;
+  border-radius: 20px;
+  /* border-radius: 50%; */
+  margin: 40px 40px 40px 40px;
+  background-color: pink;
+}
+
+.margin-one {
+  margin-bottom: 50px;
+}
+
+.margin-two {
+  margin-top: 20px;
+}
+
+.box-container {
+  height: 1000px;
+  display: flex;
+  /* justify-content: space-evenly;
+
+  align-items: center; */
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  display: block;
+  height: 100px;
+  width: 100px;
+}
+
+.box-one {
+  background-color: purple;
+}
+
+.box-two {
+  background-color: tomato;
+}
+.box-three {
+  background-color: pink;
+}
+.box-four {
+  background-color: green;
+}
+.box-five {
+  background-color: blue;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #343a40;
+  padding: 10px 20px 10px 20px;
+}
+
+.left {
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+  color: white;
+}
+
+.right {
+  display: flex;
+  width: 45%;
+  justify-content: space-between;
+  color: white;
+}
+
+.left a {
+  color: white;
+  background-color: aqua;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+}
+
+.right a {
+  color: white;
+  background-color: tomato;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+}
+
+.right a:hover {
+  color: tomato;
+  background-color: white;
+  border: 2px solid tomato;
+}
+
+.left p {
+  display: flex;
+}
